@@ -1,0 +1,54 @@
+.logo{
+	float: none;
+	text-align: center;
+}
+#mainNav ul,
+#mainNav li{
+	float: none;
+}
+#mainNav li a{
+	padding: 0.5rem;
+	border-bottom: 2px #31343a solid;
+}
+#mainNav a.active{
+	border-bottom: 0;
+	border-left: 3px #f4a460 solid;
+}
+#showcase .show-content{
+	padding-top: 120px;
+}
+#info{
+	height: 500px;
+}
+#info .bg-img{
+	display: none;
+}
+#info .services{
+	float: none;
+	width: 100%;
+}
+#benefits div{
+	float: none;
+	width: 100%;
+}
+#history .text{
+	float: none;
+	width: 100%;
+	padding: 1.2rem;
+	text-align: center;
+}
+#history .img{
+	float: none;
+	width: 100%;
+}
+#history .text h2{
+	line-height: 1.9rem;
+}
+#feedback h2{
+	line-height: 2.4rem;
+}
+#cont-info div{
+	float: none;
+	width: 100%; 
+	
+}

@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #e3e3e3;
+	color: #1f1f1f;
+	line-height: 1.7em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.clr{
+	clear: both;
+}
+.container{
+	max-width: 1124px;
+	margin: auto;
+	overflow: auto;
+	padding: 0, 20px;
+}
+a{
+	text-decoration: none;
+	color: #e3e3e3;
+	font-size: 13px;
+}
+h1, h2, h3{
+	padding-bottom: 20px;
+}
+p{
+	font-size: 14px;
+	margin: 10px, 0;
+}
+.btn{
+	display: inline-block;
+	font-size: 16px;
+	background: #2f3136;
+	color: #e3e3e3;
+	padding: 13px 18px;
+	border: none;
+	cursor: pointer;
+}
+.btn-light{
+	background: #e3e3e3;
+	color: #2f3136;
+}
+.btn:hover{
+	background: #f4a460;
+	color: #2f3136;
+}
+.bg-dark{
+	background: #2f3136;
+	color: #e3e3e3; 
+}
+.bg-light{
+	background: #e3e3e3;
+	color: #2f3136;
+}
+.bg-primary{
+	background: #f4a460;
+	color: #2f3136;
+}
+.primary-text{
+	color: #f4a460;
+}
+.myh4{
+	font-size: 30px;
+}
+.py-1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.py-2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.py-3{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#mainHeader{
+	background-color: #2f3136;
+}
+#mainNav{
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	padding: 0;
+}
+.logo a{
+	font-family: cursive, sans-serif;
+	display: block;
+	padding: 16px;
+	font-size: 30px;
+}
+#mainNav ul{
+	list-style: none;
+	float: right;
+}
+#mainNav li{
+	float: left;
+}
+#mainNav li a{
+	display: block;
+	padding: 16px;
+	text-align: center;
+}
+#mainNav a:hover,
+#mainNav a.active{
+	background-color: #31343a;
+	color: #f4a460;
+}
+#mainNav a.active{
+	border-bottom: 3px #f4a460 solid;
+}
+#showcase{
+	height: 500px;
+	background: url(../img/showcase.jpg) no-repeat center center/cover;
+}
+.show-content{
+	text-align: center;
+	padding-top: 150px;
+	color: #e3e3e3;
+}
+.show-content h1{
+	font-size: 40px;
+	line-height: 1.2em;
+}
+.show-content p{
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+#info{
+	height: 400px;
+}
+#info .bg-img{
+	float: left;
+	width: 50%;
+	background: url(../img/photo-1.jpg) no-repeat center center/cover;
+	min-height: 100%;
+}
+#info .services{
+	float: right;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	height: 100%;
+	overflow: hidden;
+}
+#info .services h2{
+	font-size: 25px;
+	padding-top: 30px;
+	line-height: 1.2em;
+}
+#info .services p{
+	font-size: 16px;
+	padding: 20px;
+	line-height: 1.7em;
+}
+#benefits div{
+	height: 300px;
+	float: left;
+	width: 33.3%;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+}
+#benefits div h3{
+	padding-top: 50px;
+}
+#benefits div p{
+	padding: 0 10px;
+	line-height: 1.7em;
+}
+#history .text{
+	float: left;
+	width: 50%;
+	min-height: 100%;
+	padding-left: 30px; 
+	line-height: 1.7em;
+}
+#history .img{
+	float: right;
+	width: 50%;
+	min-height: 100%;
+}
+#history .img img{
+	display: block;
+	margin: auto;
+	width: 70%;
+	border-radius: 50%;
+}
+#feedback{
+	height: 100%;
+	background: url(../img/test-bg.jpg) no-repeat center center/cover;
+	padding-top: 100px;
+}
+#feedback h2{
+	font-size: 40px;
+	color: #e3e3e3;
+	text-align: center;
+	padding-bottom: 40px;
+}
+#feedback .feed{
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+	opacity: 0.9;
+}
+#feedback .feed p{
+	font-size: 18px;
+	line-height: 1.7em;
+}
+#feedback .feed img{
+	width: 100px;
+  	float: left;
+ 	margin-right: 20px;
+  	border-radius: 50%;
+}
+#contact{
+	padding: 40px;
+}
+#contact h1{
+	font-size: 40px;
+}
+#contact label{
+	display: block;
+	font-size: 16px;
+	padding: 10px 0;
+}
+#contact .input{
+	width: 100%;
+	padding: 10px 0;
+	border: 1px #A9A9A9 solid;
+}
+#contact textarea{
+	height: 150px;
+	width: 100%;
+	border: 1px #A9A9A9 solid;
+	margin-bottom: 10px;
+}
+#contact input:focus, 
+#contact textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+#cont-info{
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+#cont-info div{
+	float: left;
+	width: 33.3%;
+	padding: 20px;
+}
+#cont-info p{
+	font-size: 16px;
+}
+#mainFooter{
+	height: 70px;
+	text-align: center;
+	background: #2f3136;
+	color: #7d7d7d;
+}
+#mainFooter h4{
+	padding: 20px;
+}
